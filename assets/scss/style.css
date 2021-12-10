@@ -512,7 +512,7 @@ main #sobre .larguraMaxContainer #sobreFoto {
   transition: 1s all ease;
 }
 
-main #sobre .larguraMaxContainer #sobreFoto #iuricode {
+main #sobre .larguraMaxContainer #sobreFoto #willcode {
   width: 400px;
 }
 
