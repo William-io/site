@@ -1,0 +1,66 @@
+//Zerando as configurações dos navegadores
+* {
+  padding: 0;
+  margin: 0;
+  font-family: $fontPrincipal;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+::selection {
+  background-color: $corPrincipal;
+  color: $corBranca;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: url("../image/cursor-pointer.svg"), pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+button,
+input {
+  border: 0;
+  font-family: $fontPrincipal;
+  &:focus {
+    border: 0;
+  }
+}
+body {
+  font-family: $fontPrincipal;
+  background-color: $corBranca;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  cursor: url("../image/cursor.svg"), auto;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: $corPrincipalDark;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $corPrincipal;
+  border-radius: 6px;
+}
