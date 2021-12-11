@@ -13,8 +13,7 @@ class MobileNavbar {
     this.navLinks.forEach((link, index) => {
       link.style.animation
         ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.3
+        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
           }s`);
     });
   }
@@ -95,31 +94,31 @@ document.querySelector(".js").addEventListener("mouseover", function () {
     "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.";
 });
 
-document.querySelector(".tailwind").addEventListener("mouseover", function () {
+document.querySelector(".node").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Tailwind CSS é um framework desenvolvido para maximizar o potencial do bom e velho CSS e levá-lo ainda mais longe.";
+    "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web";
 });
 
-document.querySelector(".sass").addEventListener("mouseover", function () {
+document.querySelector(".csharp").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Sass (o pré-processador) é uma linguagem de folhas de estilo. É uma simples linguagem de script usada em arquivos Sass.";
+    "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java.";
 });
 
-document.querySelector(".react").addEventListener("mouseover", function () {
+document.querySelector(".javascript").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.";
+    "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web";
 });
 
-document.querySelector(".next").addEventListener("mouseover", function () {
+document.querySelector(".net").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React.";
+    ".NET é um framework livre e de código aberto para os sistemas operacionais Windows, Linux e macOS. É um sucessor de código aberto do .NET Framework. O projeto é desenvolvido principalmente pela Microsoft e lançado com a Licença MIT";
 });
 
 document
-  .querySelector(".styled")
+  .querySelector(".angular")
   .addEventListener("mouseover", function mudarTexto8() {
     texto1.innerHTML =
-      "Styled Components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript.";
+      "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações.";
   });
 
 var sairCaixa = document.getElementsByClassName("sairCaixa");
