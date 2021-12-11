@@ -84,14 +84,14 @@ document.querySelector(".html").addEventListener("mouseover", function () {
     "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.";
 });
 
-document.querySelector(".css").addEventListener("mouseover", function () {
+document.querySelector(".typescript").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML.";
+    "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.";
 });
 
-document.querySelector(".js").addEventListener("mouseover", function () {
+document.querySelector(".sql").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.";
+    "O Microsoft SQL Server é um sistema gerenciador de Banco de dados relacional desenvolvido pela Sybase em parceria com a Microsoft.";
 });
 
 document.querySelector(".node").addEventListener("mouseover", function () {
@@ -126,7 +126,7 @@ var sairCaixa = document.getElementsByClassName("sairCaixa");
 
 for (i = 0; i < sairCaixa.length; i++) {
   sairCaixa[i].addEventListener("mouseout", function mudarTextoNormal() {
-    texto1.innerHTML = `*passe o cursor no card para ler*`;
+    texto1.innerHTML = `Principais tech que venho estudando e utilizando*`;
 
   });
 }
