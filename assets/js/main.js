@@ -81,7 +81,7 @@ var texto1 = document.querySelector(".mudarTextoDescricao");
 
 document.querySelector(".flutter").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.";
+    "Flutter é um kit de desenvolvimento de interface de usuário, de código aberto, criado pela empresa Google em 2015, baseado na linguagem de programação Dart, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux";
 });
 
 document.querySelector(".typescript").addEventListener("mouseover", function () {
