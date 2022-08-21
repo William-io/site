@@ -79,7 +79,7 @@ sr.reveal(".cards-interval", { interval: 400 });
 //Animação conhecimentos
 var texto1 = document.querySelector(".mudarTextoDescricao");
 
-document.querySelector(".html").addEventListener("mouseover", function () {
+document.querySelector(".flutter").addEventListener("mouseover", function () {
   texto1.innerHTML =
     "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.";
 });
