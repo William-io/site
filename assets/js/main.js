@@ -79,9 +79,9 @@ sr.reveal(".cards-interval", { interval: 400 });
 //Animação conhecimentos
 var texto1 = document.querySelector(".mudarTextoDescricao");
 
-document.querySelector(".flutter").addEventListener("mouseover", function () {
+document.querySelector(".html").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Flutter é um kit de desenvolvimento de interface de usuário, baseado na linguagem de programação Dart, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux";
+    "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores";
 });
 
 document.querySelector(".typescript").addEventListener("mouseover", function () {
