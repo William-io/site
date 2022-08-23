@@ -84,7 +84,7 @@ document.querySelector(".html").addEventListener("mouseover", function () {
     "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores";
 });
 
-document.querySelector(".spring").addEventListener("mouseover", function () {
+document.querySelector(".springboot").addEventListener("mouseover", function () {
   texto1.innerHTML =
     "Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento.";
 });
