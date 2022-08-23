@@ -84,10 +84,10 @@ document.querySelector(".html").addEventListener("mouseover", function () {
     "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores";
 });
 
-// document.querySelector(".typescript").addEventListener("mouseover", function () {
-//   texto1.innerHTML =
-//     "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.";
-// });
+document.querySelector(".spring").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento.";
+});
 
 document.querySelector(".sql").addEventListener("mouseover", function () {
   texto1.innerHTML =
