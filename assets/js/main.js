@@ -81,7 +81,7 @@ var texto1 = document.querySelector(".mudarTextoDescricao");
 
 document.querySelector(".html").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores";
+    "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.";
 });
 
 document.querySelector(".spring").addEventListener("mouseover", function () {
