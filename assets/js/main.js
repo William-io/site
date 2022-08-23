@@ -113,10 +113,8 @@ document.querySelector(".net").addEventListener("mouseover", function () {
   texto1.innerHTML =
     ".NET é um framework livre e de código aberto para os sistemas operacionais Windows, Linux e macOS. É um sucessor de código aberto do .NET Framework. O projeto é desenvolvido principalmente pela Microsoft e lançado com a Licença MIT";
 });
-
-document
-  .querySelector(".angular")
-  .addEventListener("mouseover", function mudarTexto8() {
+// function mudarTexto8()
+document.querySelector(".angular").addEventListener("mouseover", function() {
     texto1.innerHTML =
       "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações.";
   });
