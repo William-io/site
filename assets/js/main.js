@@ -99,9 +99,9 @@ document.querySelector(".node").addEventListener("mouseover", function () {
     "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web";
 });
 
-document.querySelector(".csharp").addEventListener("mouseover", function () {
+document.querySelector(".java").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java.";
+    "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.";
 });
 
 document.querySelector(".javascript").addEventListener("mouseover", function () {
