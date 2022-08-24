@@ -84,9 +84,9 @@ document.querySelector(".html").addEventListener("mouseover", function () {
     "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.";
 });
 
-document.querySelector(".spring").addEventListener("mouseover", function () {
+document.querySelector(".typescript").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java.";
+    "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.";
 });
 
 document.querySelector(".sql").addEventListener("mouseover", function () {
@@ -99,9 +99,9 @@ document.querySelector(".node").addEventListener("mouseover", function () {
     "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web";
 });
 
-document.querySelector(".java").addEventListener("mouseover", function () {
+document.querySelector(".csharp").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.";
+    "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET";
 });
 
 document.querySelector(".javascript").addEventListener("mouseover", function () {
